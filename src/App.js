@@ -1,9 +1,19 @@
 import React, { Component } from 'react';
+import NavBar from './component/Navbar';
+import JumboTron from './component/Jumbotron';
+import KajianKoding from './component/kajiankoding';
+import Daftar from './component/Daftar';
+import Kegiatan from './component/Kegiatan';
 
 class App extends Component {
   render() {
     return (
       <div>
+        <NavBar />
+        <JumboTron />
+        <KajianKoding />
+        <Daftar />
+        <Kegiatan/>
         <Counter nama="Liverpool" />
         <Counter nama="Barca" />
         <Counter nama="MU" />

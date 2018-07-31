@@ -1,0 +1,17 @@
+.senter {
+  text-align: center;
+}
+.jumboytron {
+  background: url(http://i66.tinypic.com/28am9fs.jpg);
+  width: 100% !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+.kegiatan {
+  background-color: 13c62e;
+}
