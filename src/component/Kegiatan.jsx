@@ -5,13 +5,12 @@ import './CSS/style.css';
 export default class Kegiatan extends React.Component {
   render() {
     return (
-      <div>
+      <div className="border">
         <Container>
           <Row>
-            <Col xs="6" className="kegiatan">
-              <br />
+            <Col sm="12" md="6" lg="6" className="kegiatan">
               <h4 className="senter">Kegiatan</h4>
-              <br />
+
               <div align="center">
                 <p>
                   <i class="anticon anticon-login" /> Koding
@@ -24,7 +23,16 @@ export default class Kegiatan extends React.Component {
                 </p>
               </div>
             </Col>
-            <Col xs="6">.col-6</Col>
+            <Col sm="12" md="6" lg="6" className="kegiatan2 senter">
+              <img
+                height="100px"
+                src="http://i63.tinypic.com/oid9xu.png"
+                alt="hore"
+              />
+              <h4>"Memberi Manfaat Untuk Ummat"</h4>
+              <br />
+              <p>-Santren Koding-</p>
+            </Col>
           </Row>
         </Container>
       </div>

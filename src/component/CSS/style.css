@@ -7,11 +7,47 @@
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
+  margin-bottom: 0 !important;
 }
 .navbar-brand {
   display: flex;
   align-items: center;
 }
 .kegiatan {
-  background-color: 13c62e;
+  padding: 30px;
+  background-color: #0bc72a;
+  color: #fff;
+}
+.kegiatan2 {
+  padding: 30px;
+  background-color: white;
+}
+.mondok {
+  padding: 30px;
+}
+.tubuh {
+  background-color: #fafafa;
+  padding-top: 30px;
+  margin: 0;
+}
+.About {
+  border-top: 1px solid #e7e7e7;
+}
+.Footer {
+  border-top: 1px solid #e7e7e7;
+}
+.card:hover {
+  -moz-box-shadow: 8px 15px 0px #9aa3a8;
+  -webkit-box-shadow: 8px 15px 0px #9aa3a8;
+  box-shadow: 8px 15px 0px #9aa3a8;
+  -webkit-transition: all 500ms ease;
+}
+.card-img-top {
+  width: 100%;
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+}
+.border {
+  border-top: 1px solid #e7e7e7;
+  padding: 50px;
 }

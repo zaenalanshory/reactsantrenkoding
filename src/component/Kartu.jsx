@@ -5,21 +5,20 @@ const Kartu = props => {
   return (
     <div>
       <Card>
-        <img
-          width="100%"
-          src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180"
-          alt="hore"
-        />
+        <img width="100%" src={props.gambar.img} alt="hore" />
         <CardBody>
-          <CardTitle></CardTitle>
-          <CardSubtitle>Card subtitle</CardSubtitle>
-          <CardLink href="#">By Santrenkoding</CardLink>
-          <CardLink href="#">Kuota Terbatas</CardLink>
+          <CardTitle>{props.gambar.judul}</CardTitle>
+          <CardSubtitle>{props.gambar.subjudul}</CardSubtitle>
+          <CardLink style={{ color: '#C4C4C4' }} href="#">
+            By Santrenkoding
+          </CardLink>
+          <CardLink style={{ color: 'red' }} href="#">
+            Kuota Terbatas
+          </CardLink>
         </CardBody>
       </Card>
     </div>
   );
 };
-
 
 export default Kartu;
